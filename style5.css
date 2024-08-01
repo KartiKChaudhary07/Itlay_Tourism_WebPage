@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 246, 247);
+}
+
+#main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; 
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+#nav {
+    width: 100%;
+    padding: 35px 45px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2; 
+}
+
+#nav a {
+    background-color: rgb(159, 209, 245);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px 18px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48%;
+    height: 50%;
+    background-image: url('josh-hild-K4WXehq5Alc-unsplash.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    z-index: 3; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box h5 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 350px;
+    text-align: center;
+    letter-spacing: 45px;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: rgba(253, 252, 252, 0.8);
+    font-size: 20px;
+    z-index: 4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(217, 230, 233);
+}
+
+#main, #page2, #page3,#page4 {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; 
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+#nav {
+    width: 100%;
+    padding: 35px 45px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2; 
+}
+
+#nav a {
+    background-color: rgba(131, 164, 195, 0.6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px 18px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: rgb(95, 185, 227);
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48%;
+    height: 50%;
+    background-image: url('josh-hild-K4WXehq5Alc-unsplash.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    z-index: 3; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box h5 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 350px;
+    text-align: center;
+    letter-spacing: 45px;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: rgba(250, 247, 247, 0.8);
+    font-size: 20px;
+    z-index: 4;
+}
+
+.scroll-down span {
+    display: block;
+}
+
+.scroll-down span:nth-child(2) {
+    font-size: 30px; 
+    margin-top: 5px;
+}
+
+#leftpara{
+    color: antiquewhite;
+    margin-top: 55px;
+    padding: 15px 15px;
+}
+#page2{
+    background-color: rgb(244, 177, 90);
+}
+#page2 {
+    background-color: rgb(244, 177, 90);
+    width: 100%;
+    height: 100%;
+}
+
+#img {
+    color: antiquewhite;
+    margin-top: 55px;
+    padding: 15px 15px;
+}
+#page2 {
+    background-color: rgb(244, 177, 90);
+    display: flex;
+}
+
+#leftside {
+    width: 37%;
+    height: 100%;
+    background-color: rgba(250, 247, 247, 0.8);  /* Change the color for visibility */
+    color: white;
+    background-color: rgb(243, 240, 240);
+    align-items: center;
+    justify-content: center;
+}
+
+#rightside {
+    width: 63%;
+    height: 100%;
+    background-color: rgb(234, 242, 243); 
+    /* Add a background color for visibility */
+}
+#leftside p{
+    width: 100%;
+    color: black;
+    padding: 15px 15px;
+    z-index: 999;
+    
+    
+}
+#leftside h3{
+    width: 6%;
+    color: black;
+    padding: 15px 15px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px 18px;
+    text-decoration: none;
+    color: rgb(8, 4, 4);
+    border-radius: 5px;
+}
+#rightside #img1{
+    background-image: url(jonathan-korner-pRU-VnBVJMQ-unsplash.jpg);
+    background-size: cover;
+    width: 926px;
+    height: 788px;   
+    z-index: 999;
+    padding: 15px 15px;
+}
+#leftside p:hover{
+    background-color: rgba(134, 218, 251, 0.6);
+}
+#page3 {
+    display: flex;
+    
+}
+
+#leftpage3 {
+    width: 60%;
+    height: 100%;
+    background-color: rgba(250, 247, 247, 0.8); 
+    color: white;
+    background-color: rgb(243, 240, 240);
+    align-items: center;
+    justify-content: center;
+    background-image: url(luca-micheli-r9RW20TrQ0Y-unsplash.jpg);
+    background-size: cover;
+}
+
+#rightpage3 {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(251, 248, 248);
+}
+#rightpage3 #p{
+    width: 100%;
+    color: black;
+    padding: 15px 15px;
+    z-index: 999;
+    font-style: oblique;
+}
+#rightpage3 #h3{
+    width: 6%;
+    color: black;
+    padding: 15px 15px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px 18px;
+    text-decoration: none;
+    color: rgb(8, 4, 4);
+    border-radius: 5px;
+    
+}
+#rightpage3 p:hover{
+    background-color: rgba(119, 225, 116, 0.6);
+}
+#page4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 260px); 
+    gap: 100px;
+    padding: 120px; 
+}
+
+#page4 #video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+#page4 .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page4 .grid-item {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#page4 #img01 { background-image: url('jonathan-korner-pRU-VnBVJMQ-unsplash.jpg'); }
+#page4 #img02 { background-image: url('luca-micheli-r9RW20TrQ0Y-unsplash.jpg'); }
+#page4 #img03 { background-image: url('josh-hild-K4WXehq5Alc-unsplash.jpg'); }
+#page4 #img04 { background-image: url('italy-4090933_1280.jpg'); }
+#page4 #img05 { background-image: url('pexels-chaitaastic-1796731.jpg'); }
+#page4 #img06 { background-image: url('pexels-davifnr-2064827.jpg'); }
+
+#page4 .grid-item:hover {
+    transform: scale(1.05); 
+    filter: brightness(1.2); 
+    z-index: 1; 
+}
+#page4 .grid-item {
+    position: relative;
+}
+
+#page4 .grid-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); 
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+#page4 .grid-item:hover::after {
+    opacity: 1; 
+}
+figcaption {
+    margin-top: 5px; 
+    color: white;
+    text-align: center;
+    font-size: 16px; 
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+#about-us {
+    background-color: rgb(235, 231, 231);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#about-us .intro, .team, .mission, .contact-info {
+    margin-bottom: 40px;
+}
+
+#about-us .team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-member {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    overflow: hidden; /* Add this to ensure the image doesn't overflow */
+}
+
+.team-member img {
+    border-radius: 30%;
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    object-position: center; 
+}
+
+
+
+
+#about-us .contact-info p {
+    line-height: 1.6;
+}
+
+#about-us footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
